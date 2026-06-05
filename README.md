@@ -24,7 +24,7 @@ Both are downloaded at runtime, so there is nothing to commit.
 
 The original version scraped party from `house.gov/representatives` with BeautifulSoup.
 That page is rebuilt every new Congress, which broke the hardcoded 438-member count, the
-`<td>` table parsing, and the single-letter party detection — so the step needed manual
+`<td>` table parsing, and the single-letter party detection, so the step needed manual
 patching each year.
 
 It now joins against the community-maintained, versioned
